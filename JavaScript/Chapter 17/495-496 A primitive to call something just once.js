@@ -13,6 +13,8 @@ function JustOnce(action) {
   };
 }
 
+var sendAddToCartTextOnce = JustOnce(sendAddToCartText);
+
 sendAddToCartTextOnce("555-555-5555-55");
 sendAddToCartTextOnce("555-555-5555-55");
 sendAddToCartTextOnce("555-555-5555-55");
